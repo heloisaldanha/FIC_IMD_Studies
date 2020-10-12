@@ -1,3 +1,3 @@
 /**
- * Trabalhando com Registros (structs)
+ * Trabalhando com Registros (tipo as structs de C)
  */
