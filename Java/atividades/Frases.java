@@ -13,6 +13,7 @@ public class Frases {
         System.out.println("Digite uma terceira frase:");
         Scanner frase3 = new Scanner(System.in);
         String terceira_frase = frase3.nextLine();
-        System.out.printf("A primeira frase digitada foi: %s.\nA segunda frase digitada foi: %s.\nA última frase digitada foi: %s.\n", primeira_frase, segunda_frase, terceira_frase);
+        System.out.printf("A primeira frase digitada foi: %s.\nA segunda frase digitada foi: %s.\nA última frase digitada foi: %s.\n",
+        primeira_frase, segunda_frase, terceira_frase);
     }
 }
