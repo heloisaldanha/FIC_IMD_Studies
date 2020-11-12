@@ -1,1 +1,1 @@
-Using only HTML.
+Using only HTML to resolve the questions.
