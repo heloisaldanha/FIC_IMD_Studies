@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    /* conserta o problema de adicionar px da largura + padding */
+}
+
+#conteudo{
+    background-color: red;
+    width: 300px;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 10px 10px 5px green;
+}

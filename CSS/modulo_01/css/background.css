@@ -1,0 +1,17 @@
+body{
+    background: url("/modulo_01/img/neon-genesis-evangelion-wallpaper.jpg") center center/100% 100% no-repeat fixed;
+    /* background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    */
+}
+
+p{
+    color: rgb(205, 70, 38);
+    text-align: center;
+    margin-top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}

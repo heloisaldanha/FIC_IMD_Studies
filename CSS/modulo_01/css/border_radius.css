@@ -1,0 +1,23 @@
+#teste{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+#teste2{
+    background-color: black;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px 15px 10px 5px;
+    margin-bottom: 20px;
+}
+
+#teste3{
+    background-color: red;
+    width: 500px;
+    height: 250px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 50px;
+}

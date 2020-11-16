@@ -1,0 +1,6 @@
+#exemplo{
+    border-bottom: solid 5px blueviolet;
+    text-align: center;
+    outline: 5px dashed red;
+    /* outline é tipo uma borda, só que mais externa à borda */
+}

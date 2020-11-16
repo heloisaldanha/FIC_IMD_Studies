@@ -1,0 +1,20 @@
+.texto-principal{
+    text-align: center;
+    color: rgb(0, 47, 255);
+}
+
+.fundo-principal{
+    background-color: red;
+}
+
+/* Para chamar classe em css usa-se o .
+para chamar id, usa-se # */
+
+#conteudo{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* O id só pode usar uma vez na página
+Já a classe, pode usar em outras tags */

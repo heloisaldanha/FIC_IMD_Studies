@@ -1,0 +1,12 @@
+p{
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 25px;
+    direction: rtl; /* rtl = right to left */
+}
+
+#exemplo1{
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 4px green;
+    /* posição horizontal, posição vertical, desfoque e cor */
+}

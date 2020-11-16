@@ -1,0 +1,32 @@
+
+
+#base{
+    background-color: green;
+    width: auto;
+    height: 500px;
+    color: white;  
+}
+
+#esquerda{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    float: left;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#direita{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    float: right;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

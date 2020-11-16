@@ -1,0 +1,23 @@
+#cores{
+    background-color: blue;
+    width: 90%;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 30px auto;
+}
+
+#gradiente{
+    background: linear-gradient(to right, rgba(255, 0, 0, 0), blue);
+    /* to right que o sentido vai da esquerda para direita
+    to left, to top(left - diagonal), to bottom */
+    width: auto;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

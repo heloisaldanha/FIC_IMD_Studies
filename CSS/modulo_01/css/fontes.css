@@ -1,0 +1,16 @@
+*{
+    font-size: 100%;
+}
+
+p{
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1em;
+    /* não entendi direito esse 1em. pesquisar */
+}
+
+/* @font-face{
+    font-family: "Reey";
+    src: url([/modulo_01/css/reey-regular-webfont.woff]);
+} */

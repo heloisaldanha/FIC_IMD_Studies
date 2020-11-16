@@ -1,0 +1,14 @@
+#conteudo{
+    background-color: red;
+    width: 300px;
+    height: 70px;
+    overflow: auto;
+    /* a altura é menor que o texto, logo, o conteúdo fica vazando do background vermelho. o overflow auto, permite barra de rolagem pra cima e pra baixo.
+    Hidden, esconde o texto que sai do background.
+    scroll dá barra de rolagem pra cima e pra baixo e pra um lado e pro outro. */
+}
+
+#conteudo p{
+    opacity: 0.2;
+    /* 1 equivale a 100%. logo, 0.2 equivale a 20%. o texto fica quase transparente. */
+}

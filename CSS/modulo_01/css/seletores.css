@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* É um seletor que pega tudo e formata de acordo como desejar */
+
+/* O que indicar depois, vai sobrepor */
+h1{ 
+    color: blue;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: green;
+    font-size: 12px;
+}
+
+/* [type=text] é um atributo de input*/
+input[type=submit], [type=reset]{
+    background-color: #ccc;
+    font-weight: bold;
+    height: 20px;
+    width: 70px;
+    border: transparent;
+    cursor: pointer;
+}
+
+input[type=email], [type=text]{
+    width: 300px;
+}
