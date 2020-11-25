@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Menus</title>
+<body>
+    <!-- Menus -->
+    <label for="estado_civil">Estado Civil: </label>
+    <select name="estadocivil" id="estado_civil">
+        <option label="Selecione" value="-1" selected="selected">Selecione</option>
+        <!-- O que está dentro do label é o que aparece para o usuário nas opções de menu 
+        Mas escrever o mesmo valor entre as tags é uma boa prática. Por padrão, melhor escrever igual -->
+        <option label="Solteira" value="S">Solteira</option>
+        <option label="Casada" value="C">Casada</option>
+        <option label="Divorciada" value="D">Divorciada</option>
+        <option label="Viúva" value="V">Viúva</option>
+    
+    </select>
+
+    <br>
+    <br>
+
+    <!-- Menu com entrada de imagem -->
+    <form enctype="multipart/form-data">
+        <h1>Formulário de adição de imagem</h1>
+        <label>Álbum: </label>
+        <select name="album">
+            <option label="Selecione o álbum" value="-1" selected="select">Selecione o álbum</option> <!-- não deve ser selcionado, apenas indicativo -->
+            <option label="Meu primeiro álbum">Meu primeiro álbum</option>
+            <option label="Lembranças">Lembranças</option>
+            <option label="Na praia">Na praia</option>
+        <!-- Esse select só permite escolher uma opção -->
+        </select>
+        <br><br>
+        <label>Categoria de fotos:</label>
+        <select name="categorias" multiple="1">
+            <option value="1">Paisagem</option>
+            <option value="2">Preferidas</option>
+            <option value="3">Com pessoas</option>
+        </select>
+        <br><br>
+        <label>Imagem: </label>
+        <input type="file" name="imagem"><br>
+        <br>
+        <input type="submit" value="Enviar imagem">
+    </form>
+</body>
+</head>
+</html>

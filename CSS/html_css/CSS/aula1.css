@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.eva01{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+h1{
+    font-style: bold;
+    font: 200;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3{
+    font-style: italic;
+    text-align: left;
+}
+
+.evangelion{
+    float: left;
+    width: 30%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-left: 40%;
+}
+
+tr{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid white;
+    border-collapse: collapse ;
+}
+
+.formulario{
+    float: right;
+}

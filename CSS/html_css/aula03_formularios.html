@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="formulario">
+        <h1>EXEMPLO DE FORMULÁRIO</h1>
+        <!-- comentários -->
+        <form action="mailto: heloisa.iece@gmail.com" method="POST" enctype="text/plain">
+        <!-- action é pra onde enviar as informações inseridas no formulário
+        enctype como é codificado quando é submetido para o servidor
+        method qual método HTTP é usado para submeter os dados do formulário-->
+            <label for="nome">Nome Completo: </label> <!-- Label: O texto indicativo da entrada de dados -->
+            <input type="text" id="nome"/> <!-- Entrada dos dados. O id liga a entrada ao texto indicativo -->
+            <label for="email">E-mail: </label>
+            <input type="email" id="email"/><br><br>
+
+            <input type="radio" id="sexo" id="feminino"/>
+            <label for="feminino">Feminino</label><br>
+            <input type="radio" id="sexo" id="masculino"/>
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="sexo" id="naobinario"/>
+            <label for="naobinario">Não-binário</label><br>
+            <!-- radio funciona como botão pra clicar de acordo com uma alternativa -->
+            <br>
+            <textarea id="comentario" rows="3" cols="40">Digite aqui os comentários...</textarea><br>
+            <!-- rows - define o número de linhas dentro do campo de texto
+            cols - define o número de colunas do campo de texto -->
+
+            <input type="submit" value="Enviar"/> <!-- Value = o que vai escrito dentro do botão -->
+            <input type="reset" value="Limpar"/><br><br>
+            <!-- Submit - enviar formulário
+            reset - incluir em todos os campos ou limpar 
+            push - associar um comportamento a um campo através de scripts -->
+
+            <!-- <button> também recebe imagens para inserir no botão -->
+
+            <!-- Checkboxes é tipo o radio, mas para indicar um valor "check" -->
+
+            
+
+            <!-- Texto oculto -->
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha"/>
+        </form>
+    </div>
+</body>
+</html>
